@@ -1,0 +1,47 @@
+CRITICAL - 2025-05-28 02:35:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/pricipal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/pricipal.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/pricipal', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/pricipal')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 02:38:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/pricipal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/pricipal.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/pricipal', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/pricipal')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 02:38:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/pricipal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/pricipal.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/pricipal', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/pricipal')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:33:53 --> Error: Call to a member function getError() on null
+in APPPATH\Views\front\consulta.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/consulta', [], true)
+ 4 APPPATH\Controllers\Home.php(55): view('front/consulta')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->consulta()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-28 16:33:54 --> Error: Call to a member function getError() on null
+in APPPATH\Views\front\consulta.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/consulta', [], true)
+ 4 APPPATH\Controllers\Home.php(55): view('front/consulta')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->consulta()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,112 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    background: radial-gradient(at 18% 99%, #6f6431 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 97% 8%, #706532 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 79% 82%, #555118 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 96% 10%, #f3fd6e 0px, transparent 70%) repeat scroll 0% 0%, 
+    radial-gradient(at 42% 20%, #667845 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 4% 49%, #35461a 0px, transparent 70%) repeat scroll 0% 0%,
+    radial-gradient(at 57% 33%, #7a7e45 0px, #4d431c 70%) repeat scroll 0% 0%;
+}
+.custom-bg-color {
+    background: #858326;
+    background-size: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #effd6e !important;
+}
+
+header{
+    position: sticky; /* Hace que el menú se quede fijo */
+    top: 0; /* Lo posiciona en la parte superior */
+    width: 100%; /* Ocupa todo el ancho del documento */
+    z-index: 999;
+}
+
+h5{
+    margin: 2%;
+}
+
+h3{
+    margin: 3%;
+}
+
+h4, h5{
+    color: rgb(0, 0, 0);
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.card{
+    background-color: #7e7c12;
+}
+
+.accordion-button{
+    background-color: #6f7535;
+}
+
+.accordion-body{
+    font-size: 17px;
+}
+
+footer{
+    background-color: #8c9632;
+    min-height: 10px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+#iconos a {
+    margin-left: 15px; /* Ajusta este valor según el espacio que desees */
+}
+
+#iconos i.bi-instagram,
+#iconos i.bi-twitter {
+    font-size: 26px;
+}
+
+.custom-card {
+    max-width: 300px; /* Establece el ancho máximo deseado para la tarjeta */
+    margin: 0 auto; /* Centra la tarjeta horizontalmente */
+}
+.custom-card-img {
+    height: 100%; /* Hace que la imagen ocupe toda la altura disponible */
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+    object-fit: cover; /* Para mantener la relación de aspecto */
+}
+a {
+  color: black; /* Establece el color del texto de los enlaces en negro */
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(78, 78, 78); /* Cambia el color del texto del enlace a gris cuando se posicione el cursor sobre él */
+}
+
+.custom-breadcrumb {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto del breadcrumb */
+    margin-bottom: 0.5cm; /* Espacio debajo del breadcrumb */
+    border-bottom: 2px solid #ccc; /* Línea debajo del breadcrumb */
+}
+
+.img-custom{
+    max-width: 100%; /* Establece el ancho máximo de la imagen dentro del carrusel */  
+}
+
+h1{
+    padding: 15px;
+}
+
+a, img{
+    font-size: 25px;
+}
+
+.cad-body, p{
+    color: black;
+}

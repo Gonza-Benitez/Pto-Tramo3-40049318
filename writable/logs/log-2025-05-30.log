@@ -1,0 +1,68 @@
+CRITICAL - 2025-05-30 03:25:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "ceniceroceramica.jpeg class="
+in SYSTEMPATH\Router\Router.php on line 704.
+ 1 SYSTEMPATH\Router\Router.php(195): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/Ceniceros/ceniceroceramica.jpeg class=')
+ 2 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('assets/img/Ceniceros/ceniceroceramica.jpeg class=')
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 03:26:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "ceniceroceramica.jpeg class="
+in SYSTEMPATH\Router\Router.php on line 704.
+ 1 SYSTEMPATH\Router\Router.php(195): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/Ceniceros/ceniceroceramica.jpeg class=')
+ 2 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('assets/img/Ceniceros/ceniceroceramica.jpeg class=')
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:42:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/emcededores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/emcededores.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/emcededores', [], true)
+ 3 APPPATH\Controllers\Home.php(97): view('front/emcededores')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->encend()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:42:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/cigarros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/cigarros.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/cigarros', [], true)
+ 3 APPPATH\Controllers\Home.php(83): view('front/cigarros')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->cigarros()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:44:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/cigarros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/cigarros.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/cigarros', [], true)
+ 3 APPPATH\Controllers\Home.php(83): view('front/cigarros')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->cigarros()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:44:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/emcededores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/emcededores.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/emcededores', [], true)
+ 3 APPPATH\Controllers\Home.php(97): view('front/emcededores')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->encend()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:44:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/cigarros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/cigarros.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/cigarros', [], true)
+ 3 APPPATH\Controllers\Home.php(83): view('front/cigarros')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->cigarros()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-30 04:44:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/encededores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/encededores.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/encededores', [], true)
+ 3 APPPATH\Controllers\Home.php(97): view('front/encededores')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->encend()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
