@@ -1,0 +1,36 @@
+CRITICAL - 2025-06-23 13:40:17 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\front\menu.php on line 147.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/menu', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('front/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-23 14:17:59 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\front\menu.php on line 145.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/menu', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(16): view('front/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-23 14:35:49 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\front\menu.php on line 150.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/menu', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(16): view('front/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-23 14:47:59 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\front\menu.php on line 149.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/menu', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(16): view('front/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

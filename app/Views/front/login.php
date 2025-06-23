@@ -29,7 +29,7 @@
           <p class="text-light text-center">
           ¿ No tienes cuenta ?
         </p>
-         <a type="button" class="btn btn-dark btn-outline-light" href="<?php echo base_url('front/registro'); ?>">Crear Cuenta</a>
+         <a type="button" class="btn btn-dark btn-outline-light" href="<?php echo base_url('registro'); ?>">Crear Cuenta</a>
           </div>
         </div>
       </form>

@@ -9,7 +9,7 @@
             <br><br>
             <?php if(session()->perfil_id == 1): ?>
             <div>
-                <img class="center" height="100px" width="100px" src="<?php echo base_url('assets/img/iconos/tabaquera.png');?>">
+                <img class="center" height="100px" width="100px" src="<?php echo base_url('assets/img/iconos/director.jpg');?>">
             </div>
             <?php elseif(session()->perfil_id == 2): ?>
                 <div>

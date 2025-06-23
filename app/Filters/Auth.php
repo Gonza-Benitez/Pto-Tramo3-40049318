@@ -13,7 +13,7 @@ class Auth implements FilterInterface
         if(!session()->get('logged_in'))
         {
             //Redirecciona a la página del login
-            return redirect()->to('/login');
+            return redirect()->to('front/login');
         }
     }
 
