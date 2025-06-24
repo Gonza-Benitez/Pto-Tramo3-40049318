@@ -12,29 +12,29 @@
       <div class="col-lg-6 col-sm-12">
         <h3>Contactanos</h3>
         <h5>
-          <img src="../assets/img/iconos/phone.png">
+          <img src="<?php echo base_url('assets/img/iconos/phone.png');?>">
           <strong>3795-018889</strong>.</h5>
         <h5>
-          <img src="../assets/img/iconos/email.png">
+          <img src="<?php echo base_url('assets/img/iconos/email.png');?>">
           <strong>tabaqueriactes@gmail.com</strong></h5>
         <h5>
-          <img src="../assets/img/iconos/locate_gps.png">
+          <img src="<?php echo base_url('assets/img/iconos/locate_gps.png');?>">
           <strong>San Luis 1030, Corrietes Capital</strong></h5>
         <h5>También podés seguirnos en nuestras redes sociales:</h5>
         <a href="#" target="_blank">
-          <img src="../assets/img/iconos/whatsapp.png">
+          <img src="<?php echo base_url('assets/img/iconos/whatsapp.png');?>">
           <strong>Whatsapp</strong>
         </a>
         <a href="https://www.instagram.com/facenaunne/" target="_blank">
-            <img src="../assets/img/iconos/Instagram.png">
+            <img src="<?php echo base_url('assets/img/iconos/Instagram.png');?>">
             <strong>Instagram</strong>
         </a>
         <a href="https://twitter.com/facenaunne" target="_blank">
-            <img src="../assets/img/iconos/twitter_x.png">
+            <img src="<?php echo base_url('assets/img/iconos/twitter_x.png');?>">
             <strong>Twitter</strong>
         </a>
         <a href="https://www.facebook.com/facenaunneargentina/" target="_blank">
-            <img src="../assets/img/iconos/facebook_internet.png">
+            <img src="<?php echo base_url('assets/img/iconos/facebook_internet.png');?>">
             <strong>Facebook</strong>
         </a>
       </div>

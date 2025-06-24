@@ -31,15 +31,15 @@
     </div>
     <div class="columna">
       <p class="fw-bold">Siguenos en</p>
-      <a href="https://www.facebook.com/facenaunneargentina/"><img src="../assets/img/iconos/facebook_internet.png"></a>
-      <a href="https://twitter.com/facenaunne"><img src="../assets/img/iconos/twitter_x.png"></a>
-      <a href="https://www.instagram.com/facenaunne/"><img src="../assets/img/iconos/Instagram.png"></a>
-      <a href="#"><img src="../assets/img/iconos/whatsapp.png"></a>
+      <a href="https://www.facebook.com/facenaunneargentina/"><img src="<?php echo base_url('assets/img/iconos/facebook_internet.png')?>"></a>
+      <a href="https://twitter.com/facenaunne"><img src="<?php echo base_url('assets/img/iconos/twitter_x.png')?>"></a>
+      <a href="https://www.instagram.com/facenaunne/"><img src="<?php echo base_url('assets/img/iconos/Instagram.png')?>"></a>
+      <a href="#"><img src="<?php echo base_url('assets/img/iconos/whatsapp.png')?>"></a>
     </div>
   </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="http://localhost/Tramo2_40049318/assets/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/Tramo3_40049318/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

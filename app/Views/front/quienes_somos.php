@@ -1,5 +1,5 @@
 <section class="container-fluid">
-    <img class="img-custom" src="../assets/img/imgPrincipal/tabacos.jpg">
+    <img class="img-custom" src="<?php echo base_url('assets/img/imgPrincipal/tabacos.jpg');?>">
 </section>
 <br>
 <section class="container">
@@ -12,7 +12,7 @@
     <div class="text-center">
         <div class="row justify-content-right">
             <div class="col-lg-4 col-sm-12">
-                <img src="../assets/img/imgPrincipal/smoke2-jpg.webp" class="card-img-top custom-card-img">
+                <img src="<?php echo base_url('assets/img/imgPrincipal/smoke2-jpg.webp');?>" class="card-img-top custom-card-img">
             </div>
             <div class="col-lg-8 col-sm-12">
                 <br>
@@ -42,7 +42,7 @@
       <div class="col-12 col-md-12 col-lg-4 ">
         <div class="card h-100">
 
-          <img src="../assets/img/iconos/director.jpg" alt="foto del personal" class="card-img-top">
+          <img src="<?php echo base_url('assets/img/iconos/director.jpg');?>" alt="foto del personal" class="card-img-top">
 
           <div class="card-body  text-center ">
             <h3 class="card-title  text-center">Arturo Romero</h3>
@@ -66,7 +66,7 @@
       <div class="col-12 col-md-12 col-lg-4 ">
         <div class="card h-100 ">
 
-          <img src="../assets/img/iconos/man.jpg" alt="foto del personal" class="card-img-top">
+          <img src="<?php echo base_url('assets/img/iconos/man.jpg');?>" alt="foto del personal" class="card-img-top">
 
           <div class="card-body ">
             <h3 class="card-title">Pablo Ruiz</h3>
@@ -90,7 +90,7 @@
       <div class="col-12 col-md-12 col-lg-4 ">
         <div class="card h-100">
 
-          <img src="../assets/img/iconos/woman.jpg" alt="foto del personal" class="card-img-top">
+          <img src="<?php echo base_url('assets/img/iconos/woman.jpg');?>" alt="foto del personal" class="card-img-top">
 
           <div class="card-body ">
             <h3 class="card-title">Ana García</h3>
